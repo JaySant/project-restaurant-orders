@@ -45,4 +45,3 @@ class MenuBuilder:
         menu_df = pd.DataFrame(menu_dishes, columns=[
             'dish_name', 'ingredients', 'price', 'restrictions'])
         return menu_df
-      
